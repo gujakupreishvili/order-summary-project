@@ -1,0 +1,129 @@
+body{
+  background-color: #F2F2F2;
+}
+.shape-photo{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  width: 1440px;
+  height: 437px;
+  z-index: -1;
+}
+.container{
+  margin:auto;
+  background-color: white;
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  
+}
+.illustration-photo{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 450px;
+  height: 220px;
+  object-fit: cover;
+}
+.order-summary{
+  text-align: center;
+  margin-top: 45px;
+  margin-left: 48px;
+  margin-right: 48px;
+  font-size: 28px;
+  font-weight: 900;
+  color: #1F2E55;
+  font-family: Red Hat Display;
+}
+.first-p{
+  font-family: Red Hat Display;
+  color: #717FA6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  height: 78px;
+  margin-top: 17px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+.middle-info{
+  
+  display: flex;
+  justify-content: space-between;
+  width: 354px;
+  height: 98px;
+  background-color: #F7F9FF;
+  border-radius: 11px;
+  margin-left: 48px;
+  margin-top: 20px;
+}
+.icon-music{
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 24px;
+}
+.plan{
+  margin-top: 25px;
+  margin-left: -40px;
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 900;
+  font-family: Red Hat Display;
+  color:#1F2E55;
+}
+.change{
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #382AE1;
+  font-family:Red Hat Display; ;
+}
+.change:hover{
+  cursor: pointer;
+}
+.price{
+  font-size: 16px;
+  margin-left: -40px;
+ color: #717FA6;
+ font-family: Red Hat Display;
+ font-weight: 500;
+ margin-top: 0px;
+}
+.payment-button{
+  margin-top:32px ;
+  background-color: #382AE1;
+  border: none;
+  width: 354px;
+  height: 50px;
+  border-radius: 11px;
+  margin-left: 48px;
+  margin-right: 48px;
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  font-family:Red Hat Display ;
+}
+.payment-button:hover{
+  cursor: pointer;
+  background-color:#766CF1;
+}
+.oder{
+  margin-left: 176px;
+  margin-right: 178px;
+  margin-top: 32px;
+  margin-bottom: 48px;
+  font-size: 15px;
+  color: #717FA6;
+  font-weight: 900;
+  font-family: Red Hat Display;
+}
+.oder:hover{
+  cursor: pointer;
+  color: #1F2E55;
+}
